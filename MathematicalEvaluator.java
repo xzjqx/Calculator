@@ -71,7 +71,6 @@ public class MathematicalEvaluator {
 			pushResult(tmp);
 			tmp = operator.pop();
 		}
-		operator.pop();
 	}
 	
 	public void anOperator(String name) {
